@@ -135,3 +135,19 @@ Connecting to host 10.0.11.5, port 5201
 /usr/local/bin/iperf3 -c 10.0.11.5 -P 10
 ```
 结果稍微高一些
+
+### PPS测试
+
+packets per second 测试发包速度 http://techblog.cloudperf.net/2016/05/2-million-packets-per-second-on-public.html
+
+测量方式
+```
+sar -n DEV 1
+```
+
+
+
+
+
+
+
