@@ -48,6 +48,7 @@ centos
 -M    设置MTU大小
 -o <filename>    结果输出至文件
 -t  运行时间 s
+-P 并行运行的线程数
 ```
 
 
